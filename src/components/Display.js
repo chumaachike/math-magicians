@@ -3,18 +3,15 @@
 /* eslint-disable react/prefer-stateless-function */
 
 import React from 'react';
-import Calculator from './components/Calculator';
 
-class App extends React.Component {
+class Display extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return (
-      <Calculator />
-    );
+    return (<div className="display">0</div>);
   }
 }
 
-export default App;
+export default Display;
