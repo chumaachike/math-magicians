@@ -6,7 +6,6 @@
 
 .display {
   text-align: right;
-  height: 70px;
   line-height: 70px;
   padding: 16px 8px;
   font-size: 25px;
@@ -41,4 +40,20 @@
 
 .ash {
   background-color: #e0e0e0;
+}
+
+.display input {
+  background-color: #858694;
+  border: none;
+  width: 100%;
+}
+
+.display input:focus {
+  outline: none;
+}
+
+.display p {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 0%;
 }
