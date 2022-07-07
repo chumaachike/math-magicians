@@ -1,12 +1,12 @@
 body {
-  background-color: #6E85B7;
+  background-color: #6e85b7;
 }
 
-.container{
+.container {
   padding: 0 20px;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
 }
@@ -14,16 +14,16 @@ nav{
 nav ul {
   display: flex;
   list-style-type: none;
-  gap: 20px
+  gap: 20px;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #F8F9D7;
+  color: #f8f9d7;
 }
 
 h1 {
-  color: #F8F9D7;
+  color: #f8f9d7;
   font-size: 1.5rem;
 }
 
