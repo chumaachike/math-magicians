@@ -1,9 +1,10 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import styles from './Calculator.module.css';
 
 function Display({ displayInput }) {
   return (
-    <div className="display">{displayInput}</div>
+    <div className={styles.display}>{displayInput}</div>
   );
 }
 Display.propTypes = {
