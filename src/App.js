@@ -1,20 +1,17 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-useless-constructor */
-/* eslint-disable react/prefer-stateless-function */
-
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Quote from './components/Quote';
+import Home from './components/Home';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <Calculator />
-    );
-  }
+function App() {
+  return (
+    <Routes>
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
+  );
 }
 
 export default App;

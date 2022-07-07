@@ -1,33 +1,30 @@
+body {
+  background-color: #6e85b7;
+}
+
 .container {
-  max-width: 400px;
-  margin: 10vh auto 0 auto;
-  box-shadow: 0 0 43px 17px rgba(153, 153, 153, 1);
+  padding: 0 20px;
 }
 
-.display {
-  text-align: right;
-  line-height: 70px;
-  padding: 16px 8px;
-  font-size: 25px;
-  background-color: #858694;
-  color: #fff;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.buttons {
-  display: grid;
-  border-bottom: 1px solid #999;
-  border-left: 1px solid #999;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: 0.5px solid #999;
-  line-height: 100px;
-  text-align: center;
-  font-size: 25px;
-  cursor: pointer;
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
 }
 
-.buttons > div {
-  border-top: 1px solid #999;
-  border-right: 1px solid #999;
+a {
+  text-decoration: none;
+  color: #f8f9d7;
+}
+
+h1 {
+  color: #f8f9d7;
+  font-size: 1.5rem;
 }
 
 .two-row {
@@ -40,20 +37,4 @@
 
 .ash {
   background-color: #e0e0e0;
-}
-
-.display input {
-  background-color: #858694;
-  border: none;
-  width: 100%;
-}
-
-.display input:focus {
-  outline: none;
-}
-
-.display p {
-  color: #fff;
-  font-size: 1.5rem;
-  line-height: 0%;
 }
