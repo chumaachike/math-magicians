@@ -8,7 +8,7 @@ function Header({ caption }) {
       <nav>
         <h1>Math Magicians</h1>
         <ul>
-          <Link to="/">Home</Link>
+          <Link to="/math-magicians">Home</Link>
           <Link to="/calculator">Calculator</Link>
           <Link to="/quote">Quote</Link>
         </ul>
