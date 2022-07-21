@@ -17,7 +17,7 @@
 
 
 ## Live Demo
-Click on this link to see this project live demo: [Live Demo Link](#)
+Click on this link to see this project live demo: [Live Demo Link](http://chumaachike.github.io/math-magicians)
 
 ## Getting Started
 
