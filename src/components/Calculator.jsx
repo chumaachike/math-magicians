@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Display from './Display';
 import Button from './Button';
-import Header from './Header';
 import styles from './Calculator.module.css';
 import calculate from '../logic/calculate';
 
@@ -29,7 +28,6 @@ function Calculator() {
   });
   return (
     <div className={styles.container}>
-      <Header caption="Let's do some maths!" />
       <div className={styles.calculator}>
         <Display displayInput={next || total || '0'} />
         <div className={styles.buttons}>
